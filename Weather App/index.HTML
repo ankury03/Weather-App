@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="heading">Weather App</h1>
+    <form class="location">
+      <label for="city">Enter a location for Weather information.</label>
+      <input type="text" name="city" class="input-box" />
+    </form>
+
+    <div class="card d-none">
+      <img src="https://placehold.co/400x300" class="time" alt="Avatar" />
+      <div>
+        <img src="" alt="" class="icon" />
+      </div>
+      <div class="details">
+        <h2>City name</h2>
+        <div class="weather">Weather Condition</div>
+        <div class="temp">
+          <span>TEMP</span>
+          <span>&deg;C</span>
+        </div>
+      </div>
+    </div>
+    <!-- Javascript -->
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
